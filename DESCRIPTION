@@ -1,0 +1,17 @@
+Package: mactest
+Title: mactest
+Version: 0.2.6
+Date: 2024-01-25
+Authors@R: c(
+    person("Travers", "Ching", email = "traversc@gmail.com", role = c("aut", "cre", "cph")))
+Description: TEST PACKAGE
+License: GPL-3
+Biarch: true
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+LazyData: true
+SystemRequirements: GNU make
+LinkingTo: 
+    Rcpp, RcppParallel
+Imports: 
+    Rcpp (>= 0.12.18.3), RcppParallel (>= 5.1.3)
