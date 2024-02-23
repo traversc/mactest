@@ -6,12 +6,12 @@
 
 // defined in some headers in windows and Mac, conflicts with R headers
 // uncomment below to make working
-#ifdef TRUE
-  #undef TRUE
-#endif
-#ifdef FALSE
-  #undef FALSE
-#endif
+// #ifdef TRUE
+//   #undef TRUE
+// #endif
+// #ifdef FALSE
+//   #undef FALSE
+// #endif
 
 using myvector = std::vector<std::string>;
 
