@@ -5,6 +5,7 @@
 #include <RcppParallel.h>
 
 // defined in some headers in windows and Mac, conflicts with R headers
+// uncomment below to make working
 #ifdef TRUE
   #undef TRUE
 #endif
